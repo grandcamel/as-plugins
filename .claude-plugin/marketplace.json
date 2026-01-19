@@ -46,6 +46,17 @@
       "keywords": ["splunk", "search", "spl", "monitoring", "siem"]
     },
     {
+      "name": "gitlab-assistant-skills",
+      "source": {
+        "source": "github",
+        "repo": "grandcamel/gitlab-assistant-skills"
+      },
+      "description": "Skills for GitLab automation and repository management",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["gitlab", "git", "ci/cd", "devops"]
+    },
+    {
       "name": "assistant-skills",
       "source": {
         "source": "github",
