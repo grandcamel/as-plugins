@@ -8,16 +8,14 @@ Claude Code marketplace for Assistant Skills plugins using GitHub sources.
 as-plugins/
 ├── .claude-plugin/
 │   └── marketplace.json      # Marketplace manifest
-├── plugins/                  # Git submodules (local development only)
-│   └── <plugin-name>/       → GitHub repository
-├── .gitmodules              # Submodule URLs
 ├── VERSION
-└── README.md
+├── README.md
+└── CLAUDE.md
 ```
 
 ## Key Concept: GitHub Sources
 
-Plugins are referenced via GitHub sources in marketplace.json:
+Plugins are referenced via GitHub sources in marketplace.json (no local submodules):
 
 ```json
 {
@@ -29,7 +27,7 @@ Plugins are referenced via GitHub sources in marketplace.json:
 }
 ```
 
-This allows users to install plugins without cloning submodules.
+Users install plugins directly from GitHub without needing to clone this repo.
 
 ## Plugin Repositories
 
@@ -42,7 +40,25 @@ This allows users to install plugins without cloning submodules.
 
 ## Development Guidelines
 
-### Updating marketplace.json
+### Adding a Plugin
+
+Add entry to `.claude-plugin/marketplace.json`:
+
+```json
+{
+  "name": "new-plugin",
+  "source": {
+    "source": "github",
+    "repo": "grandcamel/New-Plugin"
+  },
+  "description": "Plugin description",
+  "version": "1.0.0",
+  "category": "productivity",
+  "keywords": ["keyword1", "keyword2"]
+}
+```
+
+### Updating Versions
 
 When a plugin has a new release, update its version in marketplace.json.
 
@@ -56,7 +72,7 @@ Use conventional commits:
 ## Testing
 
 ```bash
-# Test marketplace
+# Test marketplace locally
 claude --plugin-dir ./
 
 # Add marketplace
