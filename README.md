@@ -42,9 +42,9 @@ claude --plugin github:grandcamel/JIRA-Assistant-Skills
 
 Some plugins require Python libraries:
 
-- **jira-assistant-skills**: `pip install jira-assistant-skills-lib`
-- **confluence-assistant-skills**: `pip install confluence-assistant-skills-lib`
-- **splunk-assistant-skills**: `pip install splunk-assistant-skills-lib`
+- **jira-assistant-skills**: `pip install jira-as`
+- **confluence-assistant-skills**: `pip install confluence-as`
+- **splunk-assistant-skills**: `pip install splunk-as`
 
 ## Contributing
 
