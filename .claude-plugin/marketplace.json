@@ -30,7 +30,7 @@
         "repo": "grandcamel/Confluence-Assistant-Skills"
       },
       "description": "14 skills for Confluence Cloud automation and content management",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "category": "productivity",
       "keywords": ["confluence", "atlassian", "wiki", "documentation"]
     },
@@ -52,7 +52,7 @@
         "repo": "grandcamel/gitlab-assistant-skills"
       },
       "description": "Skills for GitLab automation and repository management",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "productivity",
       "keywords": ["gitlab", "git", "ci/cd", "devops"]
     },
