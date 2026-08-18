@@ -19,7 +19,7 @@
         "url": "https://github.com/grandcamel/JIRA-Assistant-Skills.git"
       },
       "description": "18 specialized skills for JIRA automation with natural language",
-      "version": "4.0.1",
+      "version": "4.3.0",
       "category": "productivity",
       "keywords": [
         "jira",
