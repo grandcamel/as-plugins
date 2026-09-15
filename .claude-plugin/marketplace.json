@@ -18,7 +18,7 @@
         "source": "url",
         "url": "https://github.com/grandcamel/JIRA-Assistant-Skills.git"
       },
-      "description": "18 specialized skills for JIRA automation with natural language",
+      "description": "One Jira skill: the Entry-Point Hint for the jira-as CLI 2.x. Run jira-as help first.",
       "version": "5.0.0",
       "category": "productivity",
       "keywords": [
