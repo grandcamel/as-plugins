@@ -32,7 +32,8 @@
       "name": "confluence-assistant-skills",
       "source": {
         "source": "url",
-        "url": "https://github.com/grandcamel/Confluence-Assistant-Skills.git"
+        "url": "https://github.com/grandcamel/Confluence-Assistant-Skills.git",
+        "sha": "426d84080434571ee28a6520b5a05e2105b9fa02"
       },
       "description": "14 skills for Confluence Cloud automation and content management",
       "version": "2.0.0",
